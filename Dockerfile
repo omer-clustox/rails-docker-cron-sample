@@ -16,5 +16,3 @@ RUN touch /var/log/cron.log
 # Run the command and record the log
 CMD cron && tail -f /var/log/cron.log
 
-CMD ["cron", "-f"]
-
